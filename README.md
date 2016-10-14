@@ -1,14 +1,17 @@
-## Angular Seed App 
-
-[![Build Status](https://travis-ci.org/PauloLuan/angular-gulp-seed.svg)](https://travis-ci.org/PauloLuan/angular-gulp-seed)
-[![Coverage Status](https://coveralls.io/repos/PauloLuan/angular-gulp-seed/badge.svg)](https://coveralls.io/r/PauloLuan/angular-gulp-seed) 
-[![bitHound Score](https://www.bithound.io/github/PauloLuan/angular-gulp-seed/badges/score.svg?)](https://www.bithound.io/github/PauloLuan/angular-gulp-seed/master)
-[![Dependency Status](https://david-dm.org/PauloLuan/angular-gulp-seed.svg "Dependencies Checked & Updated Regularly (Security is Important!)")](https://david-dm.org/PauloLuan/angular-gulp-seed)
+## Test on Angular JS
 
 
-This project is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects and dev environment for these projects.
+This project is based on standard project invoking angularsJS , gulp and bower according to 
+test requirement.
 
-The seed contains a sample AngularJS application and is preconfigured to install the Angular framework and a bunch of development and testing tools for instant web development gratification.
+I use the https://github.com/rpocklin/angular-timeline to display the list
+I use directive to display the list
+I use a simple controller to put the logic of the game.
+
+//TODO the controller should defer the game logic to a Service
+
+
+
 
 **In This Documentation**
 
@@ -81,45 +84,6 @@ https://github.com/angular/protractor
 Karma: Spectacular Test Runner for JavaScript.
 http://karma-runner.github.io/
 
-
-## File Structure
-
-[Best Practice Recommendations for Angular App Structure](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)
-
-The root directory generated for a app with name `gulpAngular` :
-<pre>
-├──  src/
-│   ├──  app/
-│   │   ├──  components/
-│   │   │   └──  navbar/
-│   │   │   │   ├──  navbar.controller.js
-│   │   │   │   └──  navbar.html
-│   │   ├──  main/
-│   │   │   ├──  main.controller.js
-│   │   │   ├──  main.controller.spec.js
-│   │   │   └──  main.html
-│   │   └──  index.js
-│   │   └──  index.(css|less|scss)
-│   │   └──  vendor.(css|less|scss)
-│   ├──  assets/
-│   │   └──  images/
-│   ├──  404.html
-│   ├──  favico.ico
-│   └──  index.html
-├──  gulp/
-├──  e2e/
-├──  bower_components/
-├──  nodes_modules/
-├──  .bowerrc
-├──  .editorconfig
-├──  .gitignore
-├──  .jshintrc
-├──  bower.json
-├──  gulpfile.js
-├──  karma.conf.js
-├──  package.json
-├──  protractor.conf.js
-</pre>
 
 ## License
 

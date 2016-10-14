@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="container">
+        <input ng-model="guess" type="number" min="0" max="999" ng-disabled="end" />
+        <button ng-click="addItem(guess)" ng-disabled="end"> add to list</button>
+    </div>
+
+    <div>
+        <acme-timeline  items="items"/>
+    </div>
+</div>
